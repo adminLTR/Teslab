@@ -4,7 +4,7 @@ export default function Footer({}) {
         <h4 className="text-sky-900 text-2xl text-center font-bold mb-8">
             Available operations
         </h4>
-        <div className="py-4 flex justify-center gap-10 items-center">
+        <div className="p-4 flex justify-center gap-10 flex-wrap">
             <FooterCard
                 imgUrl={'/logic-icon.png'}
                 txt={'Logic and boolean operations'}
